@@ -12,6 +12,7 @@ public class Main {
 
         while (true){
             System.out.println("please enter file name!  (tips: the workspace is .\\file\\,and you need not to enter .txt)");
+            System.out.println("you can enter 'test' to begin a test");
             System.out.println("if you want to enter text manually,please enter 'manual' ");
             String temp=null;
             temp = in.nextLine();
